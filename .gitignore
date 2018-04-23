@@ -1,0 +1,8 @@
+.DS_Store
+.git/
+.vagrant/
+.idea/
+*.pyc
+db.sqlite3
+__pycache__/
+
