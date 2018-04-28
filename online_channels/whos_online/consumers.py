@@ -6,6 +6,7 @@ from channels.auth import channel_session_user, channel_session_user_from_http
 @channel_session_user_from_http
 def ws_connect(message):
     Group('users').add(message.reply_channel)
+    print (message.user.username)
     Group('users').send({
         'text': json.dumps({
             'username': message.user.username,

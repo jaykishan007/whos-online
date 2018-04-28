@@ -1,4 +1,4 @@
-# -*- mode: ruby -*-
+#-*- mode: ruby -*-
 # vi: set ft=ruby :
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
@@ -43,7 +43,7 @@ Vagrant.configure("2") do |config|
   # via 127.0.0.1 to disable public access
 
   config.vm.network "forwarded_port", guest: 80, host: 8000
-  config.vm.network "forwarded_port", guest: 8000, host: 7000
+  config.vm.network "forwarded_port", guest: 5555, host: 6666
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
