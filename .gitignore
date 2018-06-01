@@ -3,6 +3,7 @@
 .vagrant/
 .idea/
 *.pyc
+*.log
 db.sqlite3
 __pycache__/
 
