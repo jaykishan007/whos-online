@@ -5,3 +5,14 @@
 2018-04-28 22:28:06,288 - INFO - runworker - Using single-threaded worker.
 2018-04-28 22:28:06,288 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
 2018-04-28 22:28:06,295 - INFO - worker - Listening on channels http.request, websocket.connect, websocket.disconnect, websocket.receive
+2018-05-02 07:03:14,388 - INFO - worker - Shutdown signal received while idle, terminating immediately
+2018-05-02 07:03:21,867 - INFO - runworker - Using single-threaded worker.
+2018-05-02 07:03:21,867 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-05-02 07:03:21,867 - INFO - worker - Listening on channels http.request, websocket.connect, websocket.disconnect, websocket.receive
+2018-05-02 07:06:30,688 - INFO - worker - Shutdown signal received while idle, terminating immediately
+2018-05-29 10:23:43,669 - INFO - runworker - Using single-threaded worker.
+2018-05-29 10:23:43,669 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-05-29 10:23:43,670 - INFO - worker - Listening on channels http.request, websocket.connect, websocket.disconnect, websocket.receive
+2018-06-01 05:57:12,094 - INFO - runworker - Using single-threaded worker.
+2018-06-01 05:57:12,094 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-06-01 05:57:12,094 - INFO - worker - Listening on channels http.request, websocket.connect, websocket.disconnect, websocket.receive

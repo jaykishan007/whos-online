@@ -75,3 +75,159 @@ spawned uWSGI worker 1 (and the only) (pid: 6724, cores: 1)
 [pid: 6724|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 886 bytes} [Sat Apr 28 22:28:46 2018] GET / => generated 1638 bytes in 80 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
 [pid: 6724|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 940 bytes} [Sat Apr 28 22:28:49 2018] GET /log_out/ => generated 0 bytes in 43 msecs (HTTP/1.0 302) 5 headers in 213 bytes (1 switches on core 0)
 [pid: 6724|app: 0|req: 3/3] 127.0.0.1 () {44 vars in 894 bytes} [Sat Apr 28 22:28:49 2018] GET /log_in/ => generated 1155 bytes in 23 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 4/4] 127.0.0.1 () {42 vars in 842 bytes} [Sat Apr 28 23:09:11 2018] GET / => generated 0 bytes in 3 msecs (HTTP/1.0 302) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 5/5] 127.0.0.1 () {42 vars in 869 bytes} [Sat Apr 28 23:09:11 2018] GET /log_in/?next=/ => generated 1155 bytes in 18 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 6/6] 127.0.0.1 () {52 vars in 1046 bytes} [Sat Apr 28 23:09:15 2018] POST /log_in/ => generated 0 bytes in 110 msecs (HTTP/1.0 302) 7 headers in 422 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 7/7] 127.0.0.1 () {46 vars in 969 bytes} [Sat Apr 28 23:09:16 2018] GET / => generated 1638 bytes in 22 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 8/8] 127.0.0.1 () {40 vars in 698 bytes} [Sat Apr 28 23:09:29 2018] GET / => generated 0 bytes in 2 msecs (HTTP/1.0 302) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 9/9] 127.0.0.1 () {40 vars in 725 bytes} [Sat Apr 28 23:09:29 2018] GET /log_in/?next=/ => generated 1155 bytes in 19 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+<ul class="errorlist"><li>__all__<ul class="errorlist nonfield"><li>Please enter a correct username and password. Note that both fields may be case-sensitive.</li></ul></li></ul>
+[pid: 6724|app: 0|req: 10/10] 127.0.0.1 () {52 vars in 991 bytes} [Sat Apr 28 23:09:42 2018] POST /log_in/ => generated 1170 bytes in 75 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 11/11] 127.0.0.1 () {52 vars in 984 bytes} [Sat Apr 28 23:09:48 2018] POST /log_in/ => generated 0 bytes in 95 msecs (HTTP/1.0 302) 7 headers in 422 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 12/12] 127.0.0.1 () {46 vars in 907 bytes} [Sat Apr 28 23:09:48 2018] GET / => generated 1637 bytes in 24 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 13/13] 127.0.0.1 () {44 vars in 940 bytes} [Sat Apr 28 23:09:51 2018] GET /log_out/ => generated 0 bytes in 35 msecs (HTTP/1.0 302) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 6724|app: 0|req: 14/14] 127.0.0.1 () {44 vars in 894 bytes} [Sat Apr 28 23:09:51 2018] GET /log_in/ => generated 1155 bytes in 14 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 07:03:20 2018] ***
+compiled with version: 4.8.4 on 23 April 2018 05:41:29
+os: Linux-3.13.0-144-generic #193-Ubuntu SMP Thu Mar 15 17:03:53 UTC 2018
+nodename: vagrant-ubuntu-trusty-64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /vagrant/online_channels
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15933
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 4
+spawned uWSGI http 1 (pid: 8613)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56625 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.4.3 (default, Nov 28 2017, 16:44:58)  [GCC 4.8.4]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd79030
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xd79030 pid: 8612 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 8612, cores: 1)
+[pid: 8612|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 816 bytes} [Wed May  2 07:05:06 2018] GET / => generated 1638 bytes in 57 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 8612|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 799 bytes} [Wed May  2 07:05:07 2018] GET /favicon.ico => generated 2658 bytes in 8 msecs (HTTP/1.0 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 842 bytes} [Wed May  2 07:05:19 2018] GET / => generated 0 bytes in 8 msecs (HTTP/1.0 302) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 4/4] 127.0.0.1 () {42 vars in 869 bytes} [Wed May  2 07:05:19 2018] GET /log_in/?next=/ => generated 1155 bytes in 22 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 5/5] 127.0.0.1 () {42 vars in 842 bytes} [Wed May  2 07:05:31 2018] GET / => generated 0 bytes in 2 msecs (HTTP/1.0 302) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 6/6] 127.0.0.1 () {42 vars in 869 bytes} [Wed May  2 07:05:31 2018] GET /log_in/?next=/ => generated 1155 bytes in 12 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 7/7] 127.0.0.1 () {44 vars in 874 bytes} [Wed May  2 07:05:38 2018] GET /log_out/ => generated 0 bytes in 33 msecs (HTTP/1.0 302) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 8/8] 127.0.0.1 () {44 vars in 828 bytes} [Wed May  2 07:05:38 2018] GET /log_in/ => generated 1155 bytes in 13 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+<ul class="errorlist"><li>__all__<ul class="errorlist nonfield"><li>Please enter a correct username and password. Note that both fields may be case-sensitive.</li></ul></li></ul>
+[pid: 8612|app: 0|req: 9/9] 127.0.0.1 () {52 vars in 1046 bytes} [Wed May  2 07:05:46 2018] POST /log_in/ => generated 1170 bytes in 68 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 10/10] 127.0.0.1 () {52 vars in 1039 bytes} [Wed May  2 07:05:51 2018] POST /log_in/ => generated 0 bytes in 83 msecs (HTTP/1.0 302) 7 headers in 422 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 11/11] 127.0.0.1 () {46 vars in 962 bytes} [Wed May  2 07:05:51 2018] GET / => generated 1639 bytes in 22 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 12/12] 127.0.0.1 () {52 vars in 977 bytes} [Wed May  2 07:05:58 2018] POST /log_in/ => generated 0 bytes in 87 msecs (HTTP/1.0 302) 7 headers in 422 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 13/13] 127.0.0.1 () {46 vars in 896 bytes} [Wed May  2 07:05:58 2018] GET / => generated 1638 bytes in 18 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 14/14] 127.0.0.1 () {44 vars in 940 bytes} [Wed May  2 07:06:10 2018] GET /log_out/ => generated 0 bytes in 35 msecs (HTTP/1.0 302) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 8612|app: 0|req: 15/15] 127.0.0.1 () {44 vars in 894 bytes} [Wed May  2 07:06:10 2018] GET /log_in/ => generated 1155 bytes in 12 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Tue May 29 10:23:42 2018] ***
+compiled with version: 4.8.4 on 23 April 2018 05:41:29
+os: Linux-3.13.0-144-generic #193-Ubuntu SMP Thu Mar 15 17:03:53 UTC 2018
+nodename: vagrant-ubuntu-trusty-64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /vagrant/online_channels
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15933
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 4
+spawned uWSGI http 1 (pid: 2136)
+uwsgi socket 0 bound to TCP address 127.0.0.1:46406 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.4.3 (default, Nov 28 2017, 16:44:58)  [GCC 4.8.4]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1568030
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1568030 pid: 2135 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2135, cores: 1)
+[pid: 2135|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 877 bytes} [Tue May 29 10:24:12 2018] GET /log_in/ => generated 1155 bytes in 46 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 877 bytes} [Tue May 29 10:24:14 2018] GET /log_in/ => generated 1155 bytes in 13 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 771 bytes} [Tue May 29 10:24:23 2018] GET / => generated 0 bytes in 3 msecs (HTTP/1.0 302) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 4/4] 127.0.0.1 () {42 vars in 798 bytes} [Tue May 29 10:24:23 2018] GET /log_in/?next=/ => generated 1155 bytes in 14 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 5/5] 127.0.0.1 () {52 vars in 990 bytes} [Tue May 29 10:24:27 2018] POST /log_in/ => generated 0 bytes in 98 msecs (HTTP/1.0 302) 7 headers in 422 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 6/6] 127.0.0.1 () {46 vars in 914 bytes} [Tue May 29 10:24:28 2018] GET / => generated 1639 bytes in 22 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 7/7] 127.0.0.1 () {52 vars in 981 bytes} [Tue May 29 10:24:42 2018] POST /log_in/ => generated 0 bytes in 87 msecs (HTTP/1.0 302) 7 headers in 422 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 8/8] 127.0.0.1 () {46 vars in 901 bytes} [Tue May 29 10:24:42 2018] GET / => generated 1638 bytes in 19 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 9/9] 127.0.0.1 () {44 vars in 892 bytes} [Tue May 29 10:24:48 2018] GET /log_out/ => generated 0 bytes in 43 msecs (HTTP/1.0 302) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 2135|app: 0|req: 10/10] 127.0.0.1 () {44 vars in 846 bytes} [Tue May 29 10:24:48 2018] GET /log_in/ => generated 1155 bytes in 14 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Fri Jun  1 05:57:09 2018] ***
+compiled with version: 4.8.4 on 23 April 2018 05:41:29
+os: Linux-3.13.0-144-generic #193-Ubuntu SMP Thu Mar 15 17:03:53 UTC 2018
+nodename: vagrant-ubuntu-trusty-64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /vagrant/online_channels
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15933
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 4
+spawned uWSGI http 1 (pid: 1865)
+uwsgi socket 0 bound to TCP address 127.0.0.1:44116 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.4.3 (default, Nov 28 2017, 16:44:58)  [GCC 4.8.4]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13ad030
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x13ad030 pid: 1862 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 1862, cores: 1)
+[pid: 1862|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 795 bytes} [Fri Jun  1 05:57:23 2018] GET / => generated 0 bytes in 43 msecs (HTTP/1.0 302) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 1862|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 822 bytes} [Fri Jun  1 05:57:23 2018] GET /log_in/?next=/ => generated 1155 bytes in 87 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 1862|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 997 bytes} [Fri Jun  1 05:57:28 2018] POST /log_in/ => generated 0 bytes in 112 msecs (HTTP/1.0 302) 7 headers in 422 bytes (1 switches on core 0)
+[pid: 1862|app: 0|req: 4/4] 127.0.0.1 () {46 vars in 921 bytes} [Fri Jun  1 05:57:28 2018] GET / => generated 1639 bytes in 21 msecs (HTTP/1.0 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 1862|app: 0|req: 5/5] 127.0.0.1 () {44 vars in 892 bytes} [Fri Jun  1 05:57:30 2018] GET /log_out/ => generated 0 bytes in 40 msecs (HTTP/1.0 302) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 1862|app: 0|req: 6/6] 127.0.0.1 () {44 vars in 846 bytes} [Fri Jun  1 05:57:30 2018] GET /log_in/ => generated 1155 bytes in 14 msecs (HTTP/1.0 200) 5 headers in 278 bytes (1 switches on core 0)
